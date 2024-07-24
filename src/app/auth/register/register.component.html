@@ -1,0 +1,49 @@
+<div class="container-fluid h-100">
+  <div class="row h-100">
+    <div class="col-md-6 d-flex justify-content-center align-items-center bg-dark">
+      <div class="register-card card p-4" >
+        <div class="d-flex justify-content-start mb-4">
+          <button (click)="goBack()" class="btn btn-link text-dark">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+        </div>
+        <div class="text-center">
+          <img src="../../../assets/images/logo.jpg" alt="forms.app" class="mb-4"
+          style="width: 200px;">
+          <h3>Créez votre compte gratuitement !</h3>
+        </div>
+        <form>
+          <div class="form-group mt-3">
+            <label for="fullName">Nom complet</label>
+            <input type="text" class="form-control" id="fullName" placeholder="Veuillez saisir votre nom et prénom">
+          </div>
+          <div class="form-group mt-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="exemple@domaine.com">
+          </div>
+          <div class="form-group mt-3">
+            <label for="username">Nom d'utilisateur</label>
+            <input type="text" class="form-control" id="username" placeholder="Veuillez saisir votre nom d'utilisateur">
+          </div>
+          <div class="form-group mt-3">
+            <label for="password">Mot de passe</label>
+            <input type="password" class="form-control" id="password" placeholder="Veuillez saisir votre mot de passe">
+          </div>
+          <div class="form-check mt-3">
+            <input type="checkbox" class="form-check-input" id="terms">
+            <label class="form-check-label" for="terms">
+              J'accepte Les <a href="#" class="text-dark">Conditions D'Utilisation</a> et La <a href="#" class="text-dark">Politique De Confidentialité</a> de forms.app.
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block mt-4">S'INSCRIRE GRATUITEMENT</button>
+        </form>
+        <div class="text-center mt-3">
+          <p>Vous avez déjà un compte? <a href="#" class="text-primary">S'identifier</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 d-flex align-items-center justify-content-center bg-dark">
+      <app-carousel></app-carousel>
+    </div>
+  </div>
+</div>

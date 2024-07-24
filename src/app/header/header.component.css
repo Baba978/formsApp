@@ -1,0 +1,43 @@
+.header {
+  height: 70px;
+  padding: 20px 50px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ajoutez cette ligne pour aligner les éléments au centre */
+  
+  border-bottom: 2px solid rgba(143, 140, 143, 0.2);
+}
+
+.header .logo {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex; /* Ajoutez cette ligne pour aligner l'image et le texte */
+  align-items: center; /* Ajoutez cette ligne pour aligner l'image et le texte */
+}
+
+.header .logo img {
+  max-height: 100%; /* Assurez-vous que l'image ne dépasse pas la hauteur du parent */
+  height: 100%; /* Faites correspondre la hauteur de l'image à celle de la div parent */
+  width: 150px; /* Gardez le ratio d'aspect de l'image */
+}
+
+.header .user {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.header .user .user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: rgb(11, 107, 185);
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

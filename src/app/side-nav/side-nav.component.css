@@ -1,0 +1,106 @@
+
+.sidebar {
+  width: 250px;
+  height: 88vh;
+  background: white;
+  padding: 20px;
+  border-right: 1px solid #eaeaea; /* Optionnel : pour ajouter une ligne de séparation à droite */
+}
+
+.sidebar-header {
+  margin-bottom: 20px;
+}
+
+.sidebar-header h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.sidebar-header .count {
+  font-size: 0.8rem;
+  color: #888;
+  margin-left: auto;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Ajustement des marges */
+
+}
+
+.sidebar-menu li {
+  margin: 0; /* Retrait des marges pour un alignement correct */
+  padding: 10px 0; /* Ajout de padding pour l'espacement */
+  border-bottom: 1px solid #eaeaea; /* Ligne de séparation */
+}
+
+.sidebar-menu li:last-child {
+  border-bottom: none; /* Retirer la bordure du dernier élément */
+}
+
+.sidebar-menu li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  padding: 10px 0; /* Ajustement du padding pour une meilleure lisibilité */
+}
+
+.sidebar-menu li a i {
+  margin-right: 10px;
+}
+
+.sidebar-section {
+  margin-top: 20px;
+}
+
+.sidebar-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.sidebar-section-header span {
+  background: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.sidebar-section-header i {
+  font-size: 1.2rem;
+}
+
+.sidebar-section .sidebar-menu {
+  margin-top: 10px;
+}
+
+.sidebar-section .sidebar-menu li {
+  margin: 0; /* Retrait des marges pour un alignement correct */
+  padding: 10px 0; /* Ajout de padding pour l'espacement */
+  border-bottom: 1px solid #eaeaea; /* Ligne de séparation */
+}
+
+.sidebar-section .sidebar-menu li:last-child {
+  border-bottom: none; /* Retirer la bordure du dernier élément */
+}
+
+.sidebar-section .sidebar-menu li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  padding: 10px 0; /* Ajustement du padding pour une meilleure lisibilité */
+}
+
+.sidebar-section .sidebar-menu li a .count {
+  font-size: 0.8rem;
+  color: #888;
+  margin-left: auto;
+}

@@ -1,0 +1,54 @@
+body {
+  background-color: #1d1d1d;
+  color: white;
+}
+
+.register-card {
+    width: 150%;
+  max-width: 600px;
+}
+.btn-link {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #00bcd4;
+  text-decoration: underline;
+}
+
+
+
+.form-control {
+  margin-bottom: 15px;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #555;
+  color: white;
+}
+
+
+.register-card img {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.form-control:focus {
+  background-color: white;
+  color: white;
+  border-color: #5bc0de;
+  box-shadow: none;
+}
+.btn-primary {
+  background-color: #00bcd4;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #00a5c3;
+}
+.carousel-item img {
+  max-height: 100vh;
+  object-fit: cover;
+}

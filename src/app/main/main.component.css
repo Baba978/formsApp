@@ -1,0 +1,23 @@
+
+.container-fluid .d-flex.align-items-center h5 {
+  margin-right: 100px; /* Ajuste cette valeur selon tes besoins */
+}
+
+
+#bt{
+  margin-left: 149px;
+}
+.btn-group .btn {
+  margin-left: 5px; /* Ajuste cette valeur selon tes besoins */
+}
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh; /* Assure que le contenu est centré verticalement */
+  text-align: center;
+}
+.large-icon {
+  font-size: 8rem; /* Ajuste cette valeur selon tes besoins */
+}
+
