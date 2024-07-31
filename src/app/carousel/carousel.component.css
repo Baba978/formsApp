@@ -1,8 +1,7 @@
-.nano{
-
+.nano {
   width: 100%;
   padding-bottom: 4rem;
-  margin-top: 20%;
-
-
+  /* margin-top: 20%; */ /* Remove this line */
+  margin-top: 0; /* Optional: set top margin to 0 */
 }
+

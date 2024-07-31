@@ -1,0 +1,21 @@
+.color-selection {
+  margin-top: 10px;
+
+  .color-options {
+    display: flex;
+    align-items: center;
+
+
+    .color-option {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+
+      &.selected {
+        border: 2px solid #000;
+      }
+    }
+  }
+}

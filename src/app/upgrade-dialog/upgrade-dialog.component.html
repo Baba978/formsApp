@@ -1,0 +1,24 @@
+<div class="dialog-container">
+  <mat-icon>people_outline</mat-icon>
+  <button mat-icon-button class="close-button" (click)="closeDialog()">
+    <mat-icon>close</mat-icon>
+  </button>
+  <div class="dialog-header">
+    <p>Profitez aujourd'hui d'une réduction allant jusqu'à <strong>65%</strong>
+      sur les plans annuels payants ! <br>🌴</p>
+  </div>
+  <br>
+  <strong class="dialog-title">Améliorez votre forfait</strong>
+  <div mat-dialog-content class="dialog-content">
+    <p>Combien de membres de l'équipe souhaitez-vous inviter ?</p>
+    <div class="plan-buttons">
+      <button mat-stroked-button (click)="selectPlan('Basic')">+1 membre</button>
+      <button mat-stroked-button (click)="selectPlan('Pro')">+4 membres</button>
+      <button mat-stroked-button (click)="selectPlan('Premium')">+9 membres</button>
+    </div>
+  </div>
+  <div mat-dialog-actions class="dialog-actions">
+    <button mat-flat-button>Améliorer</button>
+    <button mat-button>Contactez-nous</button>
+  </div>
+</div>

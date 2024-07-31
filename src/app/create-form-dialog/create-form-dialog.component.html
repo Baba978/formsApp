@@ -1,0 +1,36 @@
+<h1 mat-dialog-title>Créez votre formulaire</h1>
+<div mat-dialog-content>
+  <div class="dialog-options">
+    <div class="option" (click)="generateWithAI()">
+      <div class="option-icon"><i class="bi bi-stars"></i></div>
+      <div class="option-text">
+        <h2>Générer avec l'IA</h2>
+        <p>Utilisez forms.app AI pour avoir un formulaire personnalisable instantanément</p>
+      </div>
+    </div>
+    <div class="option" (click)="startFromScratch()">
+      <div class="option-icon"><i class="bi bi-plus-circle"></i></div>
+      <div class="option-text">
+        <h2>Commencer à partir de zéro</h2>
+        <p>Obtenez une toile vierge pour laisser votre créativité s'exprimer</p>
+      </div>
+    </div>
+    <div class="option" (click)="selectTemplate()">
+      <div class="option-icon"><i class="bi bi-grid"></i></div>
+      <div class="option-text">
+        <h2>Sélectionner un modèle</h2>
+        <p>Choisissez parmi des modèles artisanaux pour commencer immédiatement.</p>
+      </div>
+    </div>
+    <div class="option" (click)="importForm()">
+      <div class="option-icon"><i class="bi bi-upload"></i></div>
+      <div class="option-text">
+        <h2>Importer un formulaire</h2>
+        <p>Gagnez du temps en important vos formulaires existants (PDFs, URLs & plus)</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Fermer</button>
+</div>

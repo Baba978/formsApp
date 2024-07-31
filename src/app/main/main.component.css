@@ -1,23 +1,61 @@
-
-.container-fluid .d-flex.align-items-center h5 {
-  margin-right: 100px; /* Ajuste cette valeur selon tes besoins */
+.container-fluid {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
+.d-flex.justify-content-between.align-items-center.mb-4 {
+  flex-shrink: 0;
+}
 
-#bt{
-  margin-left: 149px;
+#ba {
+  margin-top: 30px;
+  margin-left: 15px;
 }
-.btn-group .btn {
-  margin-left: 5px; /* Ajuste cette valeur selon tes besoins */
-}
+
 .center-content {
+  flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 65vh; /* Assure que le contenu est centré verticalement */
   text-align: center;
 }
+
 .large-icon {
   font-size: 8rem; /* Ajuste cette valeur selon tes besoins */
+  color: #00c7e2;
 }
 
+#bt {
+  margin-left: 149px;
+  margin-top: 70px;
+}
+
+.btn-group .btn {
+  margin-left: 5px; /* Ajuste cette valeur selon tes besoins */
+}
+
+.dropdown-menu {
+  min-width: 200px;
+}
+
+.btn-lg-custom {
+  padding: 10px 20px; /* Ajustez cette valeur pour agrandir le bouton */
+  border-radius: 8px; /* Ajustez cette valeur pour arrondir les coins */
+  margin-top: -20px;
+  background-color: #00c7e2;
+  color: white;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-item i {
+  margin-right: 10px;
+}
+
+.dropdown-item input[type="checkbox"] {
+  margin-right: 10px;
+}
